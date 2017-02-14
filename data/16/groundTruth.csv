@@ -1,0 +1,17 @@
+evento, inicio, fim
+evento_nao_agressivo,2,6.5
+curva_direita_agressiva,19.5,23.5
+evento_nao_agressivo,30,33.5
+curva_direita_agressiva,95,98
+curva_esquerda_agressiva,247,251.5
+curva_esquerda_agressiva,348.7,352.3
+evento_nao_agressivo,485,489
+curva_esquerda_agressiva,496,499.5
+curva_direita_agressiva,587,590
+curva_esquerda_agressiva,750,753.8
+curva_direita_agressiva,840.7,844
+curva_direita_agressiva,980,983.2
+curva_esquerda_agressiva,1087.4,1090.9
+troca_faixa_direita_agressiva,1139.8,1142
+troca_faixa_direita_agressiva,1201,1202.9
+troca_faixa_direita_agressiva,1211.4,1213.5

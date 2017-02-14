@@ -1,0 +1,23 @@
+evento, inicio, fim
+evento_nao_agressivo,35,38.6
+troca_faixa_esquerda_agressiva,23.1,24.7
+evento_nao_agressivo,85.5,89
+troca_faixa_esquerda_agressiva,97.7,100
+troca_faixa_esquerda_agressiva,108.1,110.5
+evento_nao_agressivo,117,121
+troca_faixa_esquerda_agressiva,163.3,165.4
+evento_nao_agressivo,189,193
+freada_agressiva,199.1,201.5
+freada_agressiva,257.1,260.8
+freada_agressiva,289.6,292
+freada_agressiva,323.1,325.3
+freada_agressiva,340.2,343
+freada_agressiva,390.9,392.9
+aceleracao_agressiva,425.5,429
+aceleracao_agressiva,481.6,486.3
+aceleracao_agressiva,514.8,517.2
+aceleracao_agressiva,565,567.8
+aceleracao_agressiva,700,703.2
+aceleracao_agressiva,714,717
+evento_nao_agressivo,751.5,754.7
+evento_nao_agressivo,784.6,787.8
