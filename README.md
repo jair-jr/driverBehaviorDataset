@@ -28,12 +28,12 @@ Our purpose was to establish a set of driving events that represents usual real-
 ### Dataset structure
 
  Each folder represent a car trip, and in each folder is possible to find 6 files:
- 
+
 * aceleracaoLinear_terra.csv - File with the Linear Acceleration in 3 axis.
 * acelerometro_terra.csv - File with the Acceleration in 3 axis.
 * campoMagnetico_terra.csv -  File with the Magnetometer readings in 3 axis.
 * giroscopio_terra.csv - File with the Gyroscope readings in 3 axis.
-* groundTruth.csv - File with the start and end timestamps for each event. 
+* groundTruth.csv - File with the start and end timestamps for each event.
 * viagem.json - Info about the smartphone used.
 
 The following fields are commom in the files:
@@ -50,23 +50,11 @@ The *groundTruth.csv* file have the start and end of the events, and has the fol
 The fields *inicio* and *fim* are counted since the start of the trip, so if the **inicio** field is 2 and the **fim** field is 4.5, the event started in the second 2 of the trip and ended in the second 4.5.
 
 ### Related work
- 
-The folowing works used this data set:
- 
+
+The folowing work used this data set:
+
+[Driver behavior profiling: An investigation with different smartphone sensors and machine learning](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174959)
+[Exploiting the Use of Recurrent Neural Networks for Driver Behavior Profiling](http://ieeexplore.ieee.org/document/7966230/)
 [Análise de Perfil de Motoristas: Detecção de Eventos por meio de Smartphones e Aprendizado de Máquina](http://sbrc2016.ufba.br/downloads/WoCCES/154831.pdf)
 
 If you use this dataset in your work, fell free to send a PR to keep this list updated.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
