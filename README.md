@@ -1,8 +1,8 @@
 # Driver Behavior Dataset
 
-The dataset is a collection of smartphone sensor measurements for driving events. An Android application is used to record smartphone sensor data, like Accelerometer, Linear Acceleration, Magnetometer and Gyroscope, while a driver executed particular driving events.
+The dataset is a collection of smartphone sensor measurements for driving events. An Android application is used to record smartphone sensor data, like accelerometer, linear acceleration, magnetometer and gyroscope, while a driver executed particular driving events.
 
-We performed the experiment in 4 car trips of approximately 13 minutes each in average. The experiment conditions were the following:
+We performed the experiment in 4 car trips of approximately 13 minutes each, in average. The experiment conditions were the following:
 
 1. The vehicle was a 2011 Honda Civic;
 2. The smartphone was a Motorola XT1058 with Android version 5.1;
@@ -27,7 +27,7 @@ Our purpose was to establish a set of driving events that represents usual real-
 
 ### Dataset structure
 
- Each folder represent a car trip, and in each folder is possible to find 6 files:
+ Each folder represents a car trip with the following 6 files:
 
 * aceleracaoLinear_terra.csv - File with the Linear Acceleration in 3 axis.
 * acelerometro_terra.csv - File with the Acceleration in 3 axis.
@@ -41,7 +41,7 @@ The following fields are commom in the files:
 * timestamp -  Timestamp when the record is taken.
 * uptimeNanos - Time in nanoseconds since the smartphone start.
 
-The *groundTruth.csv* file have the start and end of the events, and has the following fields:
+The *groundTruth.csv* file has the start and end of the events, and the following fields:
 
 * evento - Type of event.
 * inicio - Start of the event in seconds.
