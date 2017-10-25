@@ -25,7 +25,7 @@ Our purpose was to establish a set of driving events that represents usual real-
 | Non-aggressive event         | 14 |
 | **Total**                    | **69** |
 
-### Dataset structure
+## Dataset structure
 
  Each folder represents a car trip containing the following 6 files:
 
@@ -49,7 +49,7 @@ The *groundTruth.csv* file has the start and end of the events, and the followin
 
 The fields *inicio* and *fim* are counted since the start of the trip, so if the **inicio** field is 2 and the **fim** field is 4.5, the event started in the second 2 of the trip and ended in the second 4.5.
 
-### Related work
+## Related work
 
 The folowing work used this data set:
 
