@@ -27,7 +27,7 @@ Our purpose was to establish a set of driving events that represents usual real-
 
 ### Dataset structure
 
- Each folder represents a car trip with the following 6 files:
+ Each folder represents a car trip containing the following 6 files:
 
 * aceleracaoLinear_terra.csv - File with the Linear Acceleration in 3 axis.
 * acelerometro_terra.csv - File with the Acceleration in 3 axis.
