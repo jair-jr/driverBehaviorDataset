@@ -10,7 +10,7 @@ We performed the experiment in 4 car trips of approximately 13 minutes each, in 
 4. The motion sensors sampling rate varied between 50 and 200 Hz, depending on the sensor;
 5. Two drivers with more than 15 years of driving experience executed the driving events; and
 6. The weather was sunny and the roads were dry and paved with asphalt.
-7. The Android app which collected sensor data also displayed a realtime timer with milliseconds precision. The timer would display how much time had passed in the current trip. The displayed time would correspond to the "uptimeNanos" field in the datasets converted to milliseconds.
+7. The Android app which collected sensor data also displayed a realtime timer with milliseconds precision. The timer would display the elapsed time in the current trip which could be later converted to match the "uptimeNanos" field in the datasets.
 8. During the experiments, there were two people in the car. The driver and an assistant in the back seat who filmed the experiment.
 9. The recorded video showed the front window view, the driver's movements, the car steering wheel, velocimeter and tachometer, and the smartphone (displaying the running timer) mounted in the car panel. With this arrangement, someone watching the video later on could tell exactly when the driving event started and ended. That is how the data was labelled.
 10. Both drivers were not experts in this field, but they had plenty of driving experience.
