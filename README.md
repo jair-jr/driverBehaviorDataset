@@ -2,7 +2,7 @@
 
 The dataset is a collection of smartphone sensor measurements for driving events. An Android application is used to record smartphone sensor data, like accelerometer, linear acceleration, magnetometer and gyroscope, while a driver executed particular driving events.
 
-We performed the experiment in 4 car trips of approximately 13 minutes each, in average. The experiment conditions were the following:
+We performed the experiment in 4 car trips of approximately 13 minutes each, in average. The experiment's conditions, its setup and data labelling were the following:
 
 1. The vehicle was a 2011 Honda Civic;
 2. The smartphone was a Motorola XT1058 with Android version 5.1;
@@ -10,6 +10,11 @@ We performed the experiment in 4 car trips of approximately 13 minutes each, in 
 4. The motion sensors sampling rate varied between 50 and 200 Hz, depending on the sensor;
 5. Two drivers with more than 15 years of driving experience executed the driving events; and
 6. The weather was sunny and the roads were dry and paved with asphalt.
+7. The Android app which collected sensor data also displayed a realtime timer with milliseconds precision. The timer would display how much time had passed in the current trip. The displayed time would correspond to the "uptimeNanos" field in the datasets converted to milliseconds.
+8. During the experiments, there were two people in the car. The driver and an assistant in the back seat who filmed the experiment.
+9. The recorded video showed the front window view, the driver's movements, the car steering wheel, velocimeter and tachometer, and the smartphone (displaying the running timer) mounted in the car panel. With this arrangement, someone watching the video later on could tell exactly when the driving event started and ended. That is how the data was labelled.
+10. Both drivers were not experts in this field, but they had plenty of driving experience.
+11. According to a predefined schedule, the assistant asked the driver to execute a specific driving event type (e.g. aggressive braking, aggressive cornering) and waited for its execution while recording the video. There were no detailed instructions on how the maneuver should be performed. Hence, we relied on the driver's perception and experience on how to perform an aggressive or non-aggressive maneuver.
 
 Our purpose was to establish a set of driving events that represents usual real-world events such as breaking, acceleration, turning, and lane changes. The table below shows the 7 driving events types we used in this work and their number of collected samples. We strived to collect a balanced number of samples for each driving event type. However, we discarded 11 lane change events due to errors during the experiment. Therefore, the number of these events is slightly unbalanced. We also made our best effort to evenly distribute event samples between both drivers.
 
