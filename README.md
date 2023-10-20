@@ -48,7 +48,13 @@ The following fields are commom in the files:
 
 The *groundTruth.csv* file has the start and end of the events, and the following fields:
 
-* evento - Type of event.
+* evento - Type of event, which may be one of the following:
+  * evento_nao_agressivo - Non-aggressive event
+  * curva_direita_agressiva - Aggressive right turn
+  * curva_esquerda_agressiva - Aggressive left turn
+  * troca_faixa_direita_agressiva - Aggressive lane change to the right
+  * troca_faixa_esquerda_agressiva - Aggressive lane change to the left
+  * freada_agressiva - Aggressive breaking
 * inicio - Start of the event in seconds.
 * fim - End of the event in seconds
 
