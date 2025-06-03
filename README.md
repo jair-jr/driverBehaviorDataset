@@ -41,7 +41,7 @@ Our purpose was to establish a set of driving events that represents usual real-
 * groundTruth.csv - File with the start and end timestamps for each event.
 * viagem.json - Info about the smartphone used.
 
-The following fields are commom in the files:
+The following fields are common across the sensor CSV files:
 
 * timestamp -  Timestamp when the record is taken.
 * uptimeNanos - Time in nanoseconds since the smartphone start.
@@ -58,7 +58,7 @@ The *groundTruth.csv* file has the start and end of the events, and the followin
 * inicio - Start of the event in seconds.
 * fim - End of the event in seconds
 
-The fields *inicio* and *fim* are counted since the start of the trip, so if the **inicio** field is 2 and the **fim** field is 4.5, the event started in the second 2 of the trip and ended in the second 4.5.
+The fields *inicio* and *fim* are counted since the start of the trip, so if the **inicio** field is 2 and the **fim** field is 4.5, the event started at the second 2 of the trip and ended at the second 4.5.
 
 ## Related work
 
